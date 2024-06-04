@@ -5,22 +5,22 @@ body {
     line-height: 1.6; /* Zeilenhöhe für bessere Lesbarkeit */
 }
 
-h1, h2, h3, h4, h5, h6 {
+.h1, .h2, .h3, .h4, .h5, .h6 {
     color: #FFD700; /* Goldener Text für Überschriften */
     margin-top: 1em;
     margin-bottom: 0.5em;
 }
 
-p {
+.p {
     margin-bottom: 1em;
 }
 
-a {
+.a {
     color: #FFD700; /* Goldene Links */
     text-decoration: none;
 }
 
-a:hover {
+.a:hover {
     text-decoration: underline;
 }
 
