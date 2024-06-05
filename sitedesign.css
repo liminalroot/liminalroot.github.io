@@ -1,26 +1,20 @@
 body {
-    background-color: #000000; /* Schwarzer Hintergrund */
-    color: #FFFF00; /* Gelber Text */
+    background-image: url('background.jpg'); /* Hintergrundbild */
+    background-size: cover; /* Bild abdecken */
+    background-position: center; /* Bild zentrieren */
     font-family: Arial, sans-serif; /* Eine lesbare Schriftart */
     line-height: 1.6; /* Zeilenhöhe für bessere Lesbarkeit */
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6 {
-    color: #FFD700; /* Goldener Text für Überschriften */
-    margin-top: 1em;
-    margin-bottom: 0.5em;
+h1, h2, h3, h4, h5, h6, p, a {
+    color: inherit; /* Erbt die Textfarbe von body */
 }
 
-.p {
-    margin-bottom: 1em;
-}
-
-.a {
-    color: #FFD700; /* Goldene Links */
+a {
     text-decoration: none;
 }
 
-.a:hover {
+a:hover {
     text-decoration: underline;
 }
 
